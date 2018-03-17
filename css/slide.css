@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+li{
+    list-style: none;
+}
+#box{
+    width: 500px;
+    height: 200px;
+    margin:50px 500px;
+    overflow: hidden;
+    position:relative;
+}
+#oul{
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    list-style: none;
+}
+#oul li{
+    width: 500px;
+    height: 200px;
+    float: left;
+    list-style: none;
+
+}
+#oul2{
+    width: 100px;
+    height: 30px;
+    /*background: skyblue;*/
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#oul2 li{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    float: left;
+    margin-left: 2px;
+    
+}
+.active{
+    background:palevioletred;
+}
+#pre{
+    width: 20px;
+    height: 80px;
+    background:#FFA500;
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    left: 0;
+}
+#next{
+    width: 20px;
+    height: 80px;
+    background:#FFA500;
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    right: 0;
+}
